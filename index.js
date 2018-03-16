@@ -25,7 +25,7 @@ module.exports = function (app) {
   plugin.id = 'regions'
   plugin.name = 'Signal K Regions'
   plugin.description =
-    "Plugin that provides a source of note resources"
+    "Plugin that provides a source of region resources"
 
   plugin.schema = {
     type: 'object',
