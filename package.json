@@ -1,5 +1,5 @@
 {
-  "name": "regions-plugin",
+  "name": "@signalk/regions-plugin",
   "version": "1.0.0",
   "description": "signalk plugin to respond to the resources/regions REST API.",
   "main": "index.js",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jcable/regions-plugin/issues"
   },
-  "homepage": "https://github.com/jcable/regions-plugin#readme"
+  "homepage": "https://github.com/jcable/regions-plugin#readme",
+  "dependencies": {
+    "debug": "^3.1.0"
+  }
 }
